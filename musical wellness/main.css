@@ -1,0 +1,68 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: aqua;
+}
+
+#app {
+  background-color: aliceblue;
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+#time {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#time #value {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+button,
+input[type="submit"] {
+  border: none;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.task {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.task .completed {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.done {
+  display: flex;
+  padding: 5px;
+  background-color: #ccc;
+}
